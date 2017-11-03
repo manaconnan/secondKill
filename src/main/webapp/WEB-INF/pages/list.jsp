@@ -59,7 +59,8 @@
                             <fmt:formatDate value="${seckill.createTime}" pattern="yyyy-MM-dd HH:mm:ss"/>
                         </td>
                         <td>
-                            <a class="btn btn-info" href="/seckill/${seckill.seckillId}/detail" target="_blank">link</a>
+                            <%-- 这里有路径问题： 项目发布在idea上启动， 和发布在tomcat容器中， 请求路径不一样 --%>
+                            <a class="btn btn-info" href="/secondKill/seckill/${seckill.seckillId}/detail" target="_blank">link</a>
                         </td>
                     </tr>
                 </c:forEach>

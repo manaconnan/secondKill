@@ -6,6 +6,8 @@
 </head>
 <body>
 <h2>hello world</h2>
-<%--<jsp:forward page="/seckill/list"/>--%>
+Hello
+
+<jsp:forward page="/seckill/list"/>
 </body>
 </html>
